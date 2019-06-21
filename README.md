@@ -21,5 +21,5 @@ Copy & paste the following content into the newly created file
 ## Install filter file
 
     cd /etc/fail2ban/filter.d
-    sudo wget https://raw.githubusercontent.com/goncalopereira/pihole-fail2ban/master/filter.d/pihole-any.conf -o pihole-any.conf
+    sudo wget https://raw.githubusercontent.com/goncalopereira/pihole-fail2ban/master/filter.d/pihole-any.conf -O pihole-any.conf
     
