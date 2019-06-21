@@ -4,11 +4,11 @@ Ideas for unsucking PiHole in the Cloud
 
 ## Create jail file
 
-    nano /etc/fail2ban/jail.d/pihole-dns.conf
+    nano /etc/fail2ban/jail.d/pihole-any.conf
 
 Copy & paste the following content into the newly created file
 
-    [pihole-dns]
+    [pihole-any]
     enabled = true
     port     = 53
     action   = %(banaction)s[name=%(__name__)s-tcp, port="%(port)s", protocol="tcp", chain="%(chain)s", actname=%(banaction)s-tcp]
