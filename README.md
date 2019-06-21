@@ -4,7 +4,7 @@ Ideas for unsucking PiHole in the Cloud
 
 ## Create jail file
 
-    vi /etc/fail2ban/jail.d/pihole-dns.conf
+    nano /etc/fail2ban/jail.d/pihole-dns.conf
 
 Copy & paste the following content into the newly created file
 
